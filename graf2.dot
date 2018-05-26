@@ -1,0 +1,13 @@
+digraph grafica{
+rankdir=TB;
+node [shape = record, style=filled, fillcolor=seashell2];
+nodo8 [ label ="<C0>|+|<C1>"];
+nodo4 [ label ="1.0"];
+nodo8:C0->nodo4
+nodo7 [ label ="<C0>|*|<C1>"];
+nodo5 [ label ="1.0"];
+nodo7:C0->nodo5
+nodo6 [ label ="2.0"];
+nodo7:C1->nodo6
+nodo8:C1->nodo7
+}
